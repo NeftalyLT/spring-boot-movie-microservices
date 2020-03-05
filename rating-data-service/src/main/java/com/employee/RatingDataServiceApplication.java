@@ -1,13 +1,13 @@
-package com.microservices.movieinfoservice;
+package com.employee;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MovieInfoServiceApplication {
+public class RatingDataServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MovieInfoServiceApplication.class, args);
+		SpringApplication.run(RatingDataServiceApplication.class, args);
 	}
 
 }
